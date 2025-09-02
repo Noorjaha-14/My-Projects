@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.nav-div{
+    display:flex;
+    /* gap:120px; */
+    justify-content: space-around;
+    padding:20px;
+}
+.nav-div ul{
+    display:flex;
+    gap:30px;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.nav-div a{
+    bottom:none;
+}
+.nav-div a:hover{
+    color:blueviolet;
+}
+.nav-div .ri-more-2-fill{
+    margin-left:0px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(89, 159, 220);
+    padding:20px;
+    font-size:1.3rem;
+    align-self:center;
+}
+.input {
+    padding:20px;
+   display:flex;
+    position: relative;
+ 
+}
+input ,button{
+    padding:10px;
+    
+}
+#download{
+    background-color: rgba(24, 91, 216, 0.92);
+    color:white;
+    border-radius:5px;
+    position: absolute;
+    right:0px;
+    
+}
