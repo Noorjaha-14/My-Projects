@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://tse1.mm.bing.net/th/id/OIP.hDN99UJK7vPr6zLSqcPhuAAAAA?pid=Api');
+}
+.container{
+    width:800px;
+    height:100vh;
+}
+.images{
+    width:800px;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns:repeat(3,1fr);
+   
+
+;
+}
+.images img{
+    width:400px;
+    height:350px;
+    gap:30px;
+    border-radius: 20px;;
+}
