@@ -1,0 +1,69 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* img{  
+    width:1200px;
+ } */
+.container{
+    
+    width:1200px;
+}
+.salah h1{
+    color:black;
+    text-align:center;
+    margin:10px;
+    padding:15px;
+    background-color:#cc33ff;
+}
+.salah p:first-of-type{
+    text-align: center;
+    color:#cc33ff;
+    font-weight:bold;
+    padding:10px;
+}
+.salah p{
+    text-align: center;
+    color:gray;
+    font-weight:bold;
+}
+.content h2{
+    color:darkmagenta;
+    padding:5px;
+}
+.types ul u{
+    font-weight: bold;
+}
+.types ul li{background-color: #33c9ff;
+    padding:10px;
+    
+}
+.rakats p{
+    text-align: center;
+padding:20px;
+font-weight:bold;
+
+}
+.checklist p:first-of-type{
+    font-weight: bold;
+text-align: center;
+
+}
+.checklist p:last-of-type{
+  background-color: #33c9ff;
+  padding:15px;
+  text-align: center;
+}
+.how p:first-of-type{
+    font-weight: bold;
+    padding:5px;
+    text-align: center;
+}
