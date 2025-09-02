@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.container{width:1200px;}
+img{width:1200px;}
+.first h1{
+    text-align: center;
+background-color: blueviolet;
+color:white;
+padding:20px;
+
+}
+.first ul li{
+    background-color: aquamarine;
+    padding:10px;
+}
+
+}
