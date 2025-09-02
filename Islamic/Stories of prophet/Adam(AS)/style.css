@@ -24,3 +24,66 @@ cursor:pointer;
 .nav-div a:hover{
     color:blueviolet;
 }
+
+
+
+
+
+
+
+/**{
+    margin:0;
+    padding:0px;
+}
+body{display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.container{
+    width:1000px;
+    height:100vh;
+    text-align: center;
+   
+}
+.nav-div{
+    background-color:blueviolet;
+    display:flex;
+    padding:20px;
+justify-content:space-between;
+color:white;
+position:fixed;
+width:54%;
+top:0;
+
+}
+.nav-div ul{
+    list-style-type: none;
+    display:flex;
+    gap:40px;
+}
+.nav-div a{
+    color:white;
+    font-weight:bold;
+    ;
+}
+
+.nav-div button{
+    padding:10px;
+    border-radius:15px;
+    background-color:deeppink;
+    color:white;
+    cursor:pointer;
+
+}
+.nav-div button:hover{
+    color:deeppink;
+    background-color:white;
+}
+
+.container img{
+width:1050px;
+height:500px;
+}
+
+*/
