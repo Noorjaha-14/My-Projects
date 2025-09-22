@@ -1,0 +1,66 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family:sans-serif;
+    /*width:550px;
+    height:550px;*/
+    Background-Color:#e6e8e7;
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+nav li:hover{
+    background-color: #4d5ee8;
+}
+ nav li{
+    display:inline;
+    margin-right:20px;
+    color:rgb(59, 56, 56);
+}
+button{
+background-color:orangered;
+color:#4d5ee8;
+border-radius:5px;
+cursor:pointer;
+}
+input{
+    border-color: rgb(197, 190, 190);}
+footer{
+    display:flex;
+       background-color:#4d5ee8;
+       padding:50px;
+       
+    }
+    .foot a{
+    color:black;
+    }
+    .foot a:hover{
+    color:rgb(197, 190, 190);
+    }
+    h1::before{
+        content:"🖥️";
+    }
+    img{
+        mix-blend-mode:multiply;
+    }
+    header{
+        display:flex;
+        
+    }
+    .container-1{
+        margin-block-start:150px;
+        padding-top:50px;
+        display:flex;
+      flex-direction:row-reverse;
+
+    }
+    .info h1{
+        padding-block:20px;
+        font-size:40px;
+        margin-block-end:30px;
+    }
