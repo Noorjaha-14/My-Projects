@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="c:\Users\hp\Desktop\Noorjaha\logo.jpeg"
+        alt="logo"
+        width="50px"
+        height="50px"
+      />
+      <nav>
+        <div class="navdiv">
+        <ul class="list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+       </div>
+      
+      <a href="#"><button class="contact">Contact Us</button></a>
+    </nav>
+    </header>
+    <div class="container-1">
+       
+        <img
+        class="animate"
+        src="c:\Users\hp\Desktop\Noorjaha\right img.jpeg"alt="animate" width="400px">
+       
+      <div class="info">
+        <h1>Code With us</h1>
+        <p>Coding requires consistency</p>
+        <p>
+          No one is Born champion but you can be with Discipline and consistency
+        </p>
+         
+        <div class="search-bar">
+          <form action="" class="hold">
+            <img src="c:\Users\hp\Desktop\Noorjaha\message img.jpeg" alt="mail-logo" width="30px" height="30px"/>
+            <input type="email" placeholder="|Enter your email" />
+            <button type="submit">Join Now ✌️</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="foot-content">
+          <h2 class="head">Join Our Coding Family</h2>
+          <p>
+            If you would like to keep on the latest post and courses,<br />
+            come by and connect with us on the following links.
+          </p>
+        </div>
+        <div class="foot">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+          </div>
+        </footer>
+    </body>
+</html>
